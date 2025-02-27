@@ -28,13 +28,13 @@ bash
 Copy
 Edit
 
-## 🛠️ Installation & Setup
+## 🛠️ Installation and Setup
 
 ### 1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/aditiBansal-7/TextIQ.git
 cd TextIQ
-2️⃣ Create & Activate Virtual Environment
+2️⃣ Create and Activate Virtual Environment
 bash
 Copy
 Edit
@@ -52,8 +52,5 @@ Copy
 Edit
 python backend/app.py
 The app will be accessible at: http://127.0.0.1:5000
+```
 
-🖼️ Screenshots
-Light Mode	Dark Mode
-🔗 Live Demo
-(If deployed, add the link here)
