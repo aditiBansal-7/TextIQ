@@ -21,12 +21,19 @@
 - **Dynamic Logo Switching** based on the selected theme.
 
 ## 📂 Folder Structure
+TextIQ/ 
+ │── backend/ │ 
+    ├── app.py # Flask backend │ 
+    ├── requirements.txt # Dependencies │ 
+ │── static/ │ 
+    ├── images/ # Stores the logo and other assets │ 
+    ├── script.js # Frontend JavaScript │ 
+    ├── style.css # Styling for the UI │ 
+ │── templates/ │ 
+    ├── index.html # Main frontend file │ 
+ │── venv/ # Virtual environment (optional) │
+  ── README.md # Project documentation
 
-TextIQ/ │── backend/ │ ├── app.py # Flask backend │ ├── requirements.txt # Dependencies │ │── static/ │ ├── images/ # Stores the logo and other assets │ ├── script.js # Frontend JavaScript │ ├── style.css # Styling for the UI │ │── templates/ │ ├── index.html # Main frontend file │ │── venv/ # Virtual environment (optional) │── README.md # Project documentation
-
-bash
-Copy
-Edit
 
 ## 🛠️ Installation and Setup
 
