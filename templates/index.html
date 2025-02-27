@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TextIQ</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <script defer src="../static/script.js"></script>
+</head>
+<body class="light-mode">
+    <div class="container">
+        <!-- Header Section -->
+        <div class="header">
+            <img id="logo" src="../static/images/logo-light.png" alt="TextIQ Logo">
+            <button id="theme-toggle">☀️ Light Mode</button>
+        </div>
+
+        <!-- Title -->
+        <h1 class="app-title">TextIQ</h1>
+
+        <!-- Text Input Area -->
+        <textarea id="text-input" placeholder="Enter your text here..."></textarea>
+
+        <!-- Options Section -->
+        <div class="options-container">
+            <button class="option-btn" onclick="setOption('uppercase')">UPPERCASE</button>
+            <button class="option-btn" onclick="setOption('lowercase')">lowercase</button>
+            <button class="option-btn" onclick="setOption('remove_punctuation')">Remove Punctuation</button>
+            <button class="option-btn" onclick="setOption('extract_emails')">Extract Emails</button>
+            <button class="option-btn" onclick="setOption('convert_to_password')">Convert to Password</button>
+            <button class="option-btn" onclick="setOption('sentiment_analysis')">Sentiment Analysis</button>
+            <button class="option-btn" onclick="setOption('grammar_check')">Grammar Check</button>
+        </div>
+
+        <!-- Analyze Button -->
+        <button id="analyze-btn">Analyze</button>
+
+        <!-- Output Section -->
+        <div id="output-container">
+            <h2>Result</h2>
+            <p><strong>Original:</strong> <span id="original-text"></span></p>
+            <p><strong>Corrected Text:</strong> <span id="corrected-text"></span></p>
+            <div id="grammar-issues"></div>
+        </div>
+    </div>
+</body>
+</html>
